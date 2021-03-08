@@ -2,6 +2,14 @@
 
 A Chinese characters recognition repository with tensorrt format supported based on [CRNN_Chinese_Characters_Rec](https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec) and [TensorRTx](https://github.com/wang-xinyu/tensorrtx). 
 
+### tensorrt performance 
+
+| Item | performance | 
+|:-:|:-:|
+| time | -65% |
+| GPU memory | -25% |
+
+
 ## Dev Environments
 1. Ubuntu 18.04
 2. python 3.7
@@ -76,12 +84,6 @@ $ python inference_trt.py
 <img src='images/tensorrt_inference_result.png' title='tensorrt weights inference acc/time' style='max-width:600px'></img>
 </p>
 
-### tensorrt performance 
-batch size = 1
-| Item | performance | 
-|:-:|:-:|
-| time | -65% |
-| GPU memory | -25% |
 
 ## References
 - https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec
