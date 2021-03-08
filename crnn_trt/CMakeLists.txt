@@ -24,6 +24,7 @@ endif()
 find_package(OpenCV)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
+# tensorrt include/lib
 include_directories(/home/ps/Downloads/TensorRT-7.0.0.11.Ubuntu-18.04.x86_64-gnu.cuda-10.0.cudnn7.6/TensorRT-7.0.0.11/include)
 link_directories(/home/ps/Downloads/TensorRT-7.0.0.11.Ubuntu-18.04.x86_64-gnu.cuda-10.0.cudnn7.6/TensorRT-7.0.0.11/lib)
 
