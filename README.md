@@ -50,6 +50,7 @@ $ python inference_trt.py
 ## torch to tensorrt
 1. You should rebuild crnn torch2trt, if you change the size of input or class number. If not, you can start from step4
 ```angular2html
+   $ mkdir crnn_trt/build
    $ cd crnn_trt/build
    $ rm -rf *
 ```
